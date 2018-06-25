@@ -1,3 +1,6 @@
+<?php
+    include __DIR__ . '/functions.php';
+?>
 <html>
     <head>
         <title>Домашнее Задание 2</title>
@@ -45,7 +48,6 @@
     <p>Решение квадратного уравнения.</p>
     <p>x^2-2x-3=0</p>
     <?php
-        include __DIR__ . '/functions.php';
         $a = 1;
         $b = -2;
         $c = -3;
